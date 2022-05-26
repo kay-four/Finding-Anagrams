@@ -7,8 +7,8 @@
 def find_anagram(word, anagram):
     # [assignment] Add your code here
     if(len(word) != len(anagram)):
-        return print(False)
-    return print((sorted(word)==sorted(anagram)))
+        return False
+    return (sorted(word)==sorted(anagram))
     
 word = input("Enter a word: ")
 anagram = input("Enter another word:")
